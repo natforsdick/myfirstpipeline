@@ -22,7 +22,6 @@ include { PIPELINE_INITIALISATION } from './subworkflows/local/utils_nfcore_myfi
 include { PIPELINE_COMPLETION     } from './subworkflows/local/utils_nfcore_myfirstpipeline_pipeline'
 
 include { getGenomeAttribute      } from './subworkflows/local/utils_nfcore_myfirstpipeline_pipeline'
-
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     GENOME PARAMETER VALUES
